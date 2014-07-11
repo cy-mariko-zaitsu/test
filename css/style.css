@@ -1,0 +1,465 @@
+@charset "utf-8";
+body
+{
+	margin: 0;
+	background: url(../images/bg.png);
+	font-size: 0.6rem;
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'モリサワ 新ゴ R', 'Droid Sans', メイリオ, 'sans-serif';
+	-webkit-text-size-adjust:100%;
+}
+img
+{
+	border-style: none;
+	vertical-align: bottom;
+	width: 100%;
+}
+a
+{
+	text-decoration: none;
+	color: #0051A0;
+}
+div
+{
+	padding: 0;
+	margin: 0;
+}
+article
+{
+	width: 100%;
+	overflow: hidden;
+}
+h1.maintenance
+{
+	width: 94%;
+	margin: 2% auto;
+	position: relative;
+}
+h1.maintenance .text
+{
+	top: 38%;
+	left: 35%;
+	position: absolute;
+	color: #ffffff;
+	font-size: 0.8rem;
+}
+h1.maintenanceInfo
+{
+	width: 30%;
+	margin: 2% auto;
+}
+h1.update
+{
+	width: 30%;
+	margin: 2% auto;
+}
+h1.inputSerial
+{
+	width: 33%;
+	margin: 2% auto;
+}
+h1.terms
+{
+	width: 21%;
+	margin: 2% auto;
+}
+h1.rights
+{
+	width: 21%;
+	margin: 2% auto;
+}
+h1.help
+{
+	width: 36%;
+	margin: 0 auto;
+	padding: 2% 0;
+}
+div.main
+{
+	margin-bottom: 3%;
+}
+div.main:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+div.main .bannar1
+{
+	width: 50%;
+	float: left;
+}
+div.main .bannar2
+{
+	width: 50%;
+	float: right;
+}
+div.main .bannar3
+{
+	width: 50%;
+	float: right;
+}
+section
+{
+	width: 100%;
+	margin-bottom: 3%;
+}
+section .titleUpdate
+{
+	width: 30%;
+	margin: 0 auto 1%;
+}
+section .titleTopNews
+{
+	width: 27%;
+	margin: 0 auto 1%;
+}
+section .titleCampaign
+{
+	width: 57%;
+	margin: 0 auto 1%;
+}
+section .titleSrList
+{
+	width: 40%;
+	margin: 0 auto 1%;
+}
+section .titleSr
+{
+	width: 100%;
+	margin: 0;
+}
+section .titleRare
+{
+	width: 17%;
+	margin: 0 auto 1%;
+}
+section .titleNews
+{
+	width: 20%;
+	margin: 2% auto;
+}
+section .titleNewsHistory
+{
+	width: 21%;
+	margin: 2% auto;
+}
+div.blackArea
+{
+	width: 92.1%;
+	padding: 4%;
+	margin: 0 auto;
+	background: #1F1F1F;
+}
+div.blackArea .blackAreaTitle
+{
+	text-align: center;
+	font-size: 0.8rem;
+	color: #ffffff;
+	padding-bottom: 3%;
+}
+div.blackBox
+{
+	width: 92%;
+	padding: 2%;
+	margin: 0 auto;
+	background: #1F1F1F;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+ul.news
+{
+	width: 100%;
+}
+ul.news li
+{
+	font-size: 0.6rem;
+	margin-bottom: 2px;
+	background: url(../images/date_bg.png);
+	width: 100%;
+	color: #ffffff;
+}
+ul.news li:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+ul.news li .date
+{
+	width: 6%;
+	padding: 2%;
+	text-align: center;
+	float: left;
+}
+ul.news li .body
+{
+	width: 86%;
+	padding: 2%;
+	background: #ffffff;
+	color: #0051A0;
+	float: right;
+}
+ul.news li .new
+{
+	width: 78%;
+	padding: 2% 10% 2% 2%;
+	background-image: url(../images/icon_new.png);
+	background-position: 98% center;
+	background-size: 10% auto;
+	background-repeat: no-repeat;
+}
+
+div.blackBox ul.news li .date
+{
+	width: 6%;
+	padding: 2%;
+}
+div.blackBox ul.news li .body
+{
+	width: 87%;
+	padding: 2% 1% 2% 2%;
+}
+div.blackBox ul.news li .new
+{
+	width: 77%;
+	padding: 2% 11% 2% 2%;
+}
+
+div.blackBox ul.gacha li
+{
+	margin-bottom: 2%;
+}
+div.blackBox ul.gacha li:last-child
+{
+	margin-bottom: 0;
+}
+div.blackBox .text
+{
+	color: #ffffff;
+	padding: 2%;
+}
+
+ul.breadcrumble li
+{
+	color: #ffffff;
+	float: left;
+	margin-bottom: 3%;
+	font-size: 0.7rem;
+}
+ul.breadcrumble li a
+{
+	color:#ffffff;
+	text-decoration: underline;
+}
+ul.helpList
+{
+	margin-bottom: 3%;
+}
+ul.helpList li
+{
+	margin-bottom: 1%;
+}
+
+.copyright
+{
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 6%;
+	font-size: 0.8rem;
+}
+/*Button*/
+a.btnHistory
+{
+	display: block;
+	width: 32%;
+	margin: 3% auto 0;
+}
+a.btnHelp, a.btnTop, a.btnReturn
+{
+	display: block;
+	width: 32%;
+	margin: 3% auto;
+}
+.blackArea a.btnHelp, .blackArea a.btnTop, .blackArea a.btnReturn
+{
+	margin: 3% auto 0;
+}
+/* - Button*/
+div.bannar1
+{
+	padding: 0 3%;
+	margin-bottom: 3%;
+}
+div.bannar2
+{
+	padding: 0 3%;
+	margin-bottom: 3%;
+}
+div.bannar2:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+div.bannar2 a.left
+{
+	display: block;
+	float: left;
+	width: 48%;
+}
+div.bannar2 a.right
+{
+	display: block;
+	float: right;
+	width: 48%;
+}
+.paper
+{
+	margin-bottom: 3%;
+}
+.paper .paperHeader
+{
+	width: 100%;
+	height: 1px;
+	background: url(../images/paper_top.png) repeat-x;
+}
+.paper .paperFooter
+{
+	width: 100%;
+	height: 1px;
+	background: url(../images/paper_bottom.png) repeat-x;
+}
+.paper .paperLeft
+{
+	padding-left: 1px;
+	background: url(../images/paper_left.png) left repeat-y;
+}
+.paper .paperRight
+{
+	padding-right: 1px;
+	background: url(../images/paper_right.png) right repeat-y;
+}
+.paper .paperBody
+{
+	padding: 3%;
+	background: url(../images/paper_bg.png);
+	position: relative;
+}
+.paper .paperBody:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+.paper .paperTitle
+{
+	width: 96%;
+	padding: 2%;
+	margin: 0 auto 2%;
+	background: #402000;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 0.8rem;
+}
+.paper .dateUpdate
+{
+	text-align: center;
+	margin-bottom: 2%;
+	color: #135FD1;
+}
+.paper .dateMaintenance
+{
+	text-align: center;
+	margin-bottom: 2%;
+	color: #D90000;
+}
+.paper .paperText
+{
+	width: 100%;
+	margin: 0 auto;
+}
+.newsBannar
+{
+	margin-bottom: 3%;
+}
+.paper .paperText .pageTop
+{
+	font-size: 0.8rem;
+	text-align: right;
+	margin-top: 3%;
+}
+.paper .paperText .pageTop a
+{
+	text-decoration: underline;
+	color: #000000;
+}
+.paper .serialThumbnail
+{
+	width: 26%;
+	margin: 0 2% 2%;
+	float: left;
+}
+.paper .serialDescription
+{
+	width: 70%;
+	float: right;
+}
+.paper .serialDescription .btnInputSerial
+{
+	display: block;
+	width: 50%;
+	bottom: 12%;
+	position: absolute;
+}
+.paper .serialTitle
+{
+	font-size: 0.8rem;
+	color: #00519F;
+	text-align: center;
+	margin-bottom: 3%;
+}
+.paper .serialInput
+{
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+}
+.paper .serialInput input
+{
+	width: 100%;
+	margin-bottom: 2%;
+	background: #eeeeee;
+	padding: 2%;
+	font-size: 0.8rem;
+	color: #666666;
+}
+.paper .serialSubmit
+{
+	display: block;
+	margin: 0 auto 3%;
+	width: 50%;
+}
+.paper .serialError
+{
+	color: #D90000;
+	margin-bottom: 3%;
+	text-align: center;
+}
+.paper .presentMessage
+{
+	position: absolute;
+	bottom: 10%;
+}
+.paper .serialResult
+{
+	font-size: 0.8rem;
+	color: #00519F;
+	text-align: center;
+	padding: 20% 0;
+}
